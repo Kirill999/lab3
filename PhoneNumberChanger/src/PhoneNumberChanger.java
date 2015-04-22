@@ -21,7 +21,7 @@ public class PhoneNumberChanger {
     }
 
     private static String convert(String input) {
-        String result = "+1(";
+        String result = "+767(";
         result = result.concat(input.substring(2, 5));
         result = result.concat(")");
         result = result.concat(input.substring(5, 8));
